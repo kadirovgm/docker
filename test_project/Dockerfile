@@ -1,8 +1,8 @@
-FROM python:3.9.5
+FROM python:3.9
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 COPY . /usr/src/app/
 
-CMD ["python", "test_project/app.py"]
+CMD ["python", "app.py"]
