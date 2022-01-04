@@ -23,6 +23,10 @@
     $ docker rm $(docker ps -aq) - remove all containers
     
 
-     
+## Example
+    1. $ docker build -t test_docker . - create docker image
+    2. $ docker images - show all images
+    3. $ docker run --rm --name web -p 8080:8080 test_docker - run container
+    4. $ docker ps -a - show all containers
 
 
